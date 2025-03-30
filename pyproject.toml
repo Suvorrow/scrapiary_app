@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "proper-scraper-2024"
+version = "0.1.0"
+description = "Simple web-scraper"
+authors = ["suvorrow"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pyside6 = {version = "^6.8.0", python = ">=3.12, <3.13"}
+requests = "^2.32.3"
+wbgapi = {version = "^1.0.12", python = ">=3.12,<3.13"}
+pandas = {version = "^2.2.3", python = ">=3.12,<3.13"}
+psycopg2 = {version = "^2.9.10", python = ">=3.12,<3.13"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
